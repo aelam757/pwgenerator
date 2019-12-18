@@ -1,0 +1,26 @@
+.content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+}
+#display{
+
+    border: dashed;
+    border-color: rgb(172, 172, 172);
+    height: 120px;
+    width: 100%
+}
+h2 {
+    text-align: center;
+}
+#container{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+}
