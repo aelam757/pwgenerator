@@ -1,17 +1,23 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/7c/60/00/7c6000df042220ba72a84a27b9df93c7.jpg);
+    background-size: cover;
+}
 .content {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: lightgray;
+    background-color: transparent;
     padding: 20px;
     height: 400px;
     width: 100%;
 }
 #display{
-
-    border: dashed;
-    border-color: rgb(172, 172, 172);
+    background-color: transparent;
     height: 120px;
     width: 100%
+}
+#slider {
+    color:tan;
+    width: 100%;
 }
 h2 {
     text-align: center;
@@ -21,6 +27,13 @@ h2 {
     margin-bottom: 20px;
     margin-left: 150px;
     margin-right: 150px;
-    background-color: rgb(224, 224, 224);
+    background-color: transparent;
     padding: 20px;
+}
+#length{
+    display: inline-block;
+    width: 100px;
+}
+button {
+    text-align:center;
 }

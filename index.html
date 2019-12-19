@@ -13,34 +13,36 @@
 
 
 </head>
+<div id="container">
+    <h2>Password Generator</h2>
+    <div class="container"></div>
 
 <body>
-    <div id="container">
-        <h2>Password Generator</h2>
-        <div class="container"></div>
-
+    <div class="container">
 
         <div class="row">
 
             <div class="col-lg-8 col-sm-12 mx-auto">
 
                 <div class="content">
-                    <h4>Generate A Password</h4>
+                    <h4>Password Generator</h4>
                     <br />
-                    <input type="text" id="display" min="0" max="15">
+                    <input type="text" id="display">
+                    <br />
+                    <input type="range" min="5" max="30" name="slider" id="slider">
                     <br />
                     <button onclick="generate()">Generate</button>
-                    <button onclick="">Copy to Clipboard</button>
-
+                    <button onclick="copyPassword()">Copy to Clipboard</button>
+                    <div id="length"></div>
                 </div>
             </div>
 
-
         </div>
-    </div>
+
     </div>
 
+    </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
