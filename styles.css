@@ -3,6 +3,7 @@ body {
     background-size: cover;
 }
 .content {
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: transparent;
@@ -33,7 +34,4 @@ h2 {
 #length{
     display: inline-block;
     width: 100px;
-}
-button {
-    text-align:center;
 }
